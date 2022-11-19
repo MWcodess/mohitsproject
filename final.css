@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 46px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-family: 'Ballet', cursive;
+    /* font-family: 'Balthazar', serif; */
+    /* font-family: 'Lobster', cursive */
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(197, 190, 181);
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    
+}
+.features ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0 16px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+.features ul li a:hover{
+    color: rgb(204, 34, 12);
+    
+}
+ 
+
+
+
+
+.available{
+    margin-top: 30px;
+}
+.avaheading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+.amazon{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.amazon h1 a{
+    color: #000;
+}
+.amazon h1 a:hover{
+    color: rgb(0, 191, 255);
+}
+.amazon img{
+    position: relative;
+    top: 5px;
+}
+.flipkart{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.flipkart h1 a{
+    color: #000;
+}
+.flipkart h1 a:hover{
+    color: rgb(0, 191, 255);
+}
+.flipkart img{
+    position: relative;
+    top: 15px;
+}
+
+
+.myntra{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.myntra h1 a{
+    color: #000;
+}
+.myntra h1 a:hover{
+    color: rgb(0, 191, 255);
+}
+.myntra img{
+    position: relative;
+    top: 15px;
+    height: 200px;
+}
+
+.marketplace{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 30px;
+}
+.review{
+    background-color: rgb(197, 190, 181);
+}
+h1 a {
+    text-decoration: none;
+}
+.rev{
+    display: flex;
+    padding:  40px 100px;
+    justify-content: center;
+    align-items: center;
+}
+.rev1{
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    color: rgb(92, 88, 88);
+}
+.rev1 i{
+    color: burlywood;
+}
+.rev2 i{
+    color: burlywood;
+}
+.rev3 i{
+    color: burlywood;
+}
+.rev2{
+    border: 1px solid rgb(4, 4, 4);
+    border-radius: 8px;
+    margin: 0 20px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    color: rgb(92, 88, 88);
+}
+.rev3{
+    border: 1px solid rgb(12, 11, 11);
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    color: rgb(92, 88, 88);
+}
+    .name{
+        color: black
+    }
+    
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px;
+}
+.rev .name{
+    font-weight: bold;
+        margin: 5px 0;}
+.usersimage{
+    height: 75px;
+    width: 75px;
+}
+
+.new{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: white;
+}
+footer{ background-color: black;}
+.containerf{
+    display: flex;
+    padding: 80px 120px;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.featuresf h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(197, 166, 120);
+}
+.ourproducts h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(197, 166, 120);
+}
+.socialmedia h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(197, 166, 120);
+}
+.featuresf ul {
+    list-style: none;
+}
+.featuresf ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.featuresf ul li {
+    margin: 8px 0;
+}
+.ourproducts ul{
+    list-style: none;
+}
+.ourproducts ul li {
+    margin: 8px 0;
+}
+.ourproducts ul li a{
+    text-decoration: none;
+    color: white;
+}
+.socialmedia i{
+    font-size: 20px;
+    padding: 5px;
+    margin: 8px 0;
+    cursor: pointer;
+    color: white;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.bbt{
+    display: flex;
+    
+    
+    background-color: rgba(245, 241, 241, 0.852);
+
+}
+.blanket h1{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+    font-weight: bold;
+
+}
+.blanket p{
+    padding: 4px;
+}
+.blanketimg img{
+    height: 300px;
+    width: 450px;
+    border-radius: 5%;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.beds{
+    display: flex;
+    background-color: rgba(245, 241, 241, 0.852);
+}
+.bedsheet h1{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.bedsheet p{
+    padding: 4px;
+}
+.bedsheetimg img{
+    height: 300px;
+    width: 450px;
+    border-radius: 5%;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: center;
+   
+}
+.curt{
+    display: flex;
+    background-color: rgba(245, 241, 241, 0.852);
+}
+.three h1{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.three p{
+    padding: 4px;
+} 
+.curtainimg img{ 
+   
+    height: 300px;
+    width: 450px;
+    border-radius: 5%;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media screen and (max-width:660px) {
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .features ul {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .features ul li a{
+        line-height: 40px;
+    }
+    
+   
+   
+  
+.marketplace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.avaheading{
+    font-size: 30px;
+}
+.flipkart{
+    margin: 5px 0;
+}
+.rev{
+    display: flex;
+    flex-direction: column;
+}
+
+.rev2{
+margin: 26px 0;
+}
+.heading{
+text-align: center;
+font-size: 30px;
+}
+.bbt{
+    /* height: 200px; */
+    /* width: 250px; */
+    display: flex;
+    justify-content: space-between;
+}
+.blanketimg img{
+    height: 200px;
+    width: 200px;
+}
+.beds{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+.bedsheetimg img{
+    height: 200px;
+    width: 200px;
+}
+.curt{
+    display: flex;
+    justify-content: space-between;
+}
+.curtainimg img{
+    height: 200px;
+    width: 200px;
+}
+.containerf{
+    display: flex;
+    flex-direction: column;
+}
+.ourproducts{
+    margin: 20px 0;
+}
+.amazon img{
+    height: 100px;
+    width: 100px;
+}
+.flipkart img{
+    height: 100px;
+    width: 190px;
+}
+.myntra img{
+    height: 100px;
+    width: 100px;
+}
+.rev{
+    padding: 40px;
+}
+.heading{
+    padding: 30px;
+}
+}
